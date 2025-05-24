@@ -14,13 +14,18 @@ My QuesGen.ipynb Notebook
 QuesGen.ipynb is my question generation engine—the notebook that brings everything together. I take the keyphrases I’ve extracted using KeyBERT and YAKE, and QuesGen.ipynb helps me turn them into ready-to-use quiz questions. Here’s how I use it:
 
 I select the most relevant phrase as the correct answer.
-
 I pick other meaningful phrases as distracters (the alternative options).
-
 The notebook automatically formats these into multiple-choice questions, which saves me time and ensures everything is consistent.
 
 How It All Comes Together:
 By combining KeyBERT and YAKE, I get the best of both worlds: deep, context-aware keyphrases from KeyBERT and fast, statistically-driven phrases from YAKE. My QuesGen.ipynb notebook ties it all together, using the outputs from both extractors to create high-quality, content-driven multiple-choice questions. This integrated approach helps me make sure my questions are accurate, challenging, and closely tied to my source material.
+
+My Chemistry Dataset:
+The dataset I used for keyphrase extraction is a structured collection of chemistry lessons, saved in a JSON file. It covers foundational topics like "Some Basic Concepts of Chemistry," including the importance of chemistry in everyday life, the nature and states of matter, classification of substances, and measurement systems used in science.
+
+Each lesson is written in clear, educational language, making it perfect for both teaching and learning. The content ranges from simple definitions—like what matter is—to more detailed explanations about mixtures, pure substances, elements, compounds, and the SI system of units. There are also practical examples and real-world applications, such as how chemistry contributes to industry, healthcare, and environmental solutions.
+
+This rich, well-organized dataset provides the ideal material for my keyphrase extractors (KeyBERT and YAKE) to identify important concepts and generate effective quiz questions. By working with this content, I can ensure that the keyphrases and questions I create are accurate, relevant, and closely tied to the actual curriculum—making the learning process more engaging and meaningful.
 
 In summary:
 KeyBERT and YAKE help me find what matters most in my content, and QuesGen.ipynb transforms those insights into engaging questions—making my quiz creation process smarter, faster, and much more reliable!
