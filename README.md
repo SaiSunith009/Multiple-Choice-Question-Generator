@@ -1,1 +1,3 @@
 # Multiple-Choice-Question-Generator
+
+This project is a Python-based Jupyter Notebook designed to help users generate questions efficiently and interactively. It leverages modern data science tools and interactive widgets to create a seamless experience for educators, students, or anyone needing to produce custom questions quickly. The notebook features progress bars and visual feedback, making the process transparent and user-friendly. By combining code, interactivity, and clear progress indicators, this project aims to make question generation both accessible and enjoyable for everyone, regardless of their technical background.
